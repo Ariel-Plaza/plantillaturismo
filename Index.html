@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plantilla turismo</title>
+  <link rel="stylesheet" href="css/mobile.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/ba75a37084.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="header__top">
+      <div class="contact bar">
+        <div class="data">
+          <ul class="phone">
+            <li class="phone__icon">
+              <i class="fa-solid fa-phone"></i>
+            </li>
+            <li>+569983838</li>
+          </ul>
+          <ul class="mail">
+            <li class="mail__icon">
+              <i class="fa-regular fa-envelope"></i>
+            </li>
+            <li class="mail__text">cualquiera@gmail.com</li>
+          </ul>
+        </div>
+        <ul class="social">
+          <li class="fb">
+            <a><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li class="ig">
+            <a><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li class="tw">
+            <a><i class="fa-brands fa-twitter"></i></a>
+        </ul>
+      </div>
+      <div class="menu__bar">
+        <div class="logo">
+          <img src="/assets/img/logo.png" alt="logo" />
+        </div>
+        <button class="button">
+          <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+          </svg>
+        </button>
+        <nav class="nav">
+          <ul class="ul">
+            <li class="li"><a href="#" class="a">Home</a></li>
+            <li class="li"><a href="#about" class="a">Tour</a></li>
+            <li class="li"><a href="#portfolio" class="a">Pages</a></li>
+            <li class="li"><a href="#skill" class="a">Contact-Us</a></li>
+          </ul>
+        </nav>
+        <div class="button__tour">Create Tour</div>
+      </div>
+    </div>
+    <div class="data__arrows">
+      <img src="assets/img/arrow_left.svg" class="slider__arrow" id="before" alt="arrow_left">
+      <img src="assets/img/arrow_right.svg" class="slider__arrow" id="next" alt="arrow_right">
+    </div>
+    <div class="slider">
+
+      <div class="slider__container container">
+        <section class="slider__body slider__body--show" data-id="1">
+          <figure class="slider__picture">
+            <img src="/assets/img/img1.jpg" alt="" class="slider__img">
+          </figure>
+          <div class="container__details">
+            <div class="slider__details">
+              <p><i class="fa-solid fa-location-dot"></i>Ubicacion</p>
+              <h1>Slider1</h1>
+              <ul class="data__animation">
+                <li class="clock">
+                  <i class="fa-solid fa-clock-rotate-left"></i>Duration
+                </li>
+                <li class="discount">
+                  <i class="fa-solid fa-percent"></i>Discount
+                </li>
+              </ul>
+              <span class="data__button">
+                $50.000
+              </span>
+            </div>
+          </div>
+        </section>
+
+        <section class="slider__body" data-id="2">
+          <figure class="slider__picture">
+            <img src="/assets/img/img2.jpg" alt="" class="slider__img">
+          </figure>
+          <div class="container__details">
+            <div class="slider__details">
+              <p><i class="fa-solid fa-location-dot"></i>Ubicacion</p>
+              <h1>Slider2</h1>
+              <ul class="data__animation">
+                <li class="clock">
+                  <i class="fa-solid fa-clock-rotate-left"></i>Duration
+                </li>
+                <li class="discount">
+                  <i class="fa-solid fa-percent"></i>Discount
+                </li>
+              </ul>
+              <span class="data__button">
+                $50.000
+              </span>
+            </div>
+          </div>
+        </section>
+        <section class="slider__body" data-id="3">
+          <figure class="slider__picture">
+            <img src="/assets/img/img3.jpg" alt="" class="slider__img">
+          </figure>
+          <div class="container__details">
+            <div class="slider__details">
+              <p><i class="fa-solid fa-location-dot"></i>Ubicacion</p>
+              <h1>Slider3</h1>
+              <ul class="data__animation">
+                <li class="clock">
+                  <i class="fa-solid fa-clock-rotate-left"></i>Duration
+                </li>
+                <li class="discount">
+                  <i class="fa-solid fa-percent"></i>Discount
+                </li>
+              </ul>
+              <span class="data__button">
+                $50.000
+              </span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="services">
+      <div class="title">
+        <h2>OUR BEST SERVICES</h2>
+        <h3>Why we are the best four our client</h3>
+      </div>
+      <div class="services__card">
+        <div class="transport card">
+          <div class="card__icon">
+            <span>
+              <i class="fa-solid fa-plane-departure"></i>
+            </span>
+          </div>
+          <div class="card__content">
+            <h4>BEST DESTINATIONS</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione nihil earum dolorem aut facilis necessitatibus odio
+              deserunt error asperiores ullam consequatur enim accusamus, et,
+              neque quam natus officia voluptas. Iure.
+            </p>
+          </div>
+        </div>
+        <div class="tour card">
+          <div class="card__icon">
+            <span>
+              <i class="fa-solid fa-plane-departure"></i>
+            </span>
+          </div>
+          <div class="card__content">
+            <h4>BEST PRICE GUARANTEED</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione nihil earum dolorem aut facilis necessitatibus odio
+              deserunt error asperiores ullam consequatur enim accusamus, et,
+              neque quam natus officia voluptas. Iure.
+            </p>
+          </div>
+        </div>
+        <div class="guide card">
+          <div class="card__icon">
+            <span>
+              <i class="fa-solid fa-plane-departure"></i>
+            </span>
+          </div>
+          <div class="card__content">
+            <h4>INSTANT BOOKING</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione nihil earum dolorem aut facilis necessitatibus odio
+              deserunt error asperiores ullam consequatur enim accusamus, et,
+              neque quam natus officia voluptas. Iure.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="popular__packages">
+      <div class="title">
+        <h2>OUR MOST POPULAR PACKAGES</h2>
+        <h3>Browse through our most popular tours!</h3>
+        
+      </div>
+      <div class="packages__cards">
+        <div class="popular card">
+          <div class="card__image">
+            <img src="assets/img/descarga.jpg" alt="" />
+            <p>Guided Tours</p>
+          </div>
+          <div class="card__content">
+            <h4>Costa del Sol Tour</h4>
+            <div class="duration">
+              <div class="durationicon"></div>
+              <p>Duration: <span>3 days</span></p>
+            </div>
+            <p>Amet mauris commodo quis. Magna iaculis eu non diam phasellus vestibulum lorem....
+            </p>
+          </div>
+          <div class="cost">
+            <div class="valuation">
+              <div class="valuationicon">stars</div>
+              <div class="valuationtxt">2 reviews</div>
+            </div>
+            <div class="price">
+              <div class="discount">30% <span>$400</span></div>
+              <div class="price__total">$ 280</div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="popular card">
+          <div class="card__image">
+            <img src="assets/img/descarga.jpg" alt="" />
+            <p>Guided Tours</p>
+          </div>
+          <div class="card__content">
+            <h4>Costa del Sol Tour</h4>
+            <div class="duration">
+              <div class="durationicon"></div>
+              <p>Duration: <span>3 days</span></p>
+            </div>
+            <p>Amet mauris commodo quis. Magna iaculis eu non diam phasellus vestibulum lorem....
+            </p>
+          </div>
+          <div class="cost">
+            <div class="valuation">
+              <div class="valuationicon">stars</div>
+              <div class="valuationtxt">2 reviews</div>
+            </div>
+            <div class="price">
+              <div class="discount">30% <span>$400</span></div>
+              <div class="price__total">$ 280</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="popular card">
+          <div class="card__image">
+            <img src="assets/img/descarga.jpg" alt="" />
+            <p>Guided Tours</p>
+          </div>
+          <div class="card__content">
+            <h4>Costa del Sol Tour</h4>
+            <div class="duration">
+              <div class="durationicon"></div>
+              <p>Duration: <span>3 days</span></p>
+            </div>
+            <p>Amet mauris commodo quis. Magna iaculis eu non diam phasellus vestibulum lorem....
+            </p>
+          </div>
+          <div class="cost">
+            <div class="valuation">
+              <div class="valuationicon">stars</div>
+              <div class="valuationtxt">2 reviews</div>
+            </div>
+            <div class="price">
+              <div class="discount">30% <span>$400</span></div>
+              <div class="price__total">$ 280</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="popular card">
+          <div class="card__image">
+            <img src="assets/img/descarga.jpg" alt="" />
+            <p>Guided Tours</p>
+          </div>
+          <div class="card__content">
+            <h4>Costa del Sol Tour</h4>
+            <div class="duration">
+              <div class="durationicon"></div>
+              <p>Duration: <span>3 days</span></p>
+            </div>
+            <p>Amet mauris commodo quis. Magna iaculis eu non diam phasellus vestibulum lorem....
+            </p>
+          </div>
+          <div class="cost">
+            <div class="valuation">
+              <div class="valuationicon">stars</div>
+              <div class="valuationtxt">2 reviews</div>
+            </div>
+            <div class="price">
+              <div class="discount">30% <span>$400</span></div>
+              <div class="price__total">$ 280</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="popular__destination">
+      <div class="cards__title">
+        <h2>
+          Popular Destination
+
+        </h2>
+        <p class="subtitle">
+          Our most popular destination availables
+        </p>
+      </div>
+      <div class="destination__container">
+        <div class="destination__cards__container">
+          <section class="destination__cards">
+            <img src="assets/img/valdivia.jpg" alt="Foto Valdivia">
+            <div class="card__data">
+              <p>Valdivia</p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </section>
+          <section class="destination__cards">
+            <img src="assets/img/valdivia.jpg" alt="Foto Valdivia">
+            <div class="card__data">
+              <p>Valdivia</p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </section>
+          <section class="destination__cards">
+            <img src="assets/img/valdivia.jpg" alt="Foto Valdivia">
+            <div class="card__data">
+              <p>Valdivia</p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </section>
+          <section class="destination__cards">
+            <img src="assets/img/valdivia.jpg" alt="Foto Valdivia">
+            <div class="card__data">
+              <p>Valdivia</p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </section>
+          <section class="destination__cards">
+            <img src="assets/img/valdivia.jpg" alt="Foto Valdivia">
+            <div class="card__data">
+              <p>Valdivia</p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </section>
+          <section class="destination__cards">
+            <img src="assets/img/valdivia.jpg" alt="Foto Valdivia">
+            <div class="card__data">
+              <p>Valdivia</p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--<footer>
+    <div class="footer__container">
+      <div class="footer__logo">
+        <img src="assets/img/logo.png" alt="" />
+      </div>
+      <div class="contact__footer">
+        <div class="data__footer">
+          <ul>
+            <li class="phonef__icon">
+              <i class="fa-solid fa-phone"></i>
+            </li>
+            <li class="phone__footer">+569983838</li>
+          </ul>
+          <ul>
+            <li class="mail__iconf">
+              <i class="fa-regular fa-envelope"></i>
+            </li>
+            <li class="mail">cualquiera@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+      <ul class="Social">
+        <li class="FB__footer">
+          <a><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li class="IG__footer">
+          <a><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li class="TW__footer">
+          <a><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li class="YT__footer">
+          <a><i class="fa-brands fa-youtube"></i></a>
+        </li>
+      </ul>
+    </div>
+  </footer> -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>
